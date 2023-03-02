@@ -5,6 +5,7 @@
   "description": "Socket IO Backend for Stocks",
   "main": "index.js",
   "scripts": {
+    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "JackyTea",

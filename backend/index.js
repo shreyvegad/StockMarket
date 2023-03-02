@@ -29,7 +29,9 @@ const io = new Server(server);
 // express.js configuration
 app.use(express.json({ extended: true }))
 app.use(express.urlencoded({ extended: true }))
-app.use(cors());
+app.use(cors(
+    
+));
 
 // express.js routes
 app.get('/', (req, res) => {
